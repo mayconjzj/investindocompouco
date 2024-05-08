@@ -8,7 +8,7 @@ export const Header = () => {
       </div>
 
       <nav className="hidden md:block">
-        <ul className="flex gap-x-12 font-bold">
+        <ul className="flex items-center gap-x-12 font-bold">
           <li>
             <ActiveLink href="/" icon>
               Início
