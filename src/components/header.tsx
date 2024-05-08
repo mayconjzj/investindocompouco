@@ -15,12 +15,12 @@ export const Header = () => {
             </ActiveLink>
           </li>
           <li>
-            <ActiveLink href="/sobre" icon>
+            <ActiveLink href="/about" icon>
               Sobre
             </ActiveLink>
           </li>
           <li>
-            <ActiveLink href="/contato" icon>
+            <ActiveLink href="/contact" icon>
               Contato
             </ActiveLink>
           </li>

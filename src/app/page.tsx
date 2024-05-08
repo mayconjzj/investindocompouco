@@ -18,7 +18,7 @@ export default function Home() {
         <div className="absolute -z-10 inset-0 bg-gradient-to-tl from-transparent to-black lg:from-40% lg:to-70%" />
         <div className="absolute -z-10 inset-0 bg-gradient-to-l from-transparent to-black lg:from-40% lg:to-55%" />
 
-        <article className="max-w-[550px] space-y-6">
+        <article className="max-w-[540px] space-y-6">
           <span className="text-primary">CONHEÇA NOSSO CANAL NO YOUTUBE</span>
           <h1 className="text-5xl font-black">Investindo Com Pouco</h1>
           <p className="text-muted font-light">
@@ -43,7 +43,7 @@ export default function Home() {
           </span>
           <h1 className="text-3xl font-black">Como Investir em Ações</h1>
 
-          <div className="w-full max-w-[1100px] h-[50vw] max-h-[500px] bg-gradient-to-br from-primary to-blue-500 from-40% to-90% m-auto" />
+          <div className="w-full max-w-[1100px] h-[50vw] max-h-[500px] bg-muted rounded-sm m-auto" />
         </article>
       </section>
     </main>
