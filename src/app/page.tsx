@@ -42,8 +42,13 @@ export default function Home() {
             COMEÇE SUA JORNADA ATÉ A LIBERDADE FINANCEIRA POR AQUI
           </span>
           <h1 className="text-3xl font-black">Como Investir em Ações</h1>
-
-          <div className="w-full max-w-[1100px] h-[50vw] max-h-[500px] bg-muted rounded-sm m-auto" />
+          <iframe
+            width="1200"
+            height="700"
+            src="https://www.youtube.com/embed/bxMhtttzM28?si=yzFU5PntuLdxrXHd"
+            title="YouTube video player"
+            className="w-full max-w-[1100px] max-h-[500px] bg-muted rounded-sm m-auto"
+          ></iframe>
         </article>
       </section>
     </main>
