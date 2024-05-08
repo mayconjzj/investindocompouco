@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        invest: 'url("/images/invest.png")'
+        invest: 'url("/images/invest.jpeg")'
       },
       fontFamily: {
         inter: ['var(--font-inter)']

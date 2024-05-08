@@ -41,9 +41,9 @@ export default function Home() {
           <span className="text-primary">
             COMEÇE SUA JORNADA ATÉ A LIBERDADE FINANCEIRA POR AQUI
           </span>
-          <h1 className="text-3xl font-black">COMO INVESTIR EM AÇÔES</h1>
+          <h1 className="text-3xl font-black">Como Investir em Ações</h1>
 
-          <div className="w-full max-w-[1100px] h-[50vw] max-h-[500px] bg-primary m-auto" />
+          <div className="w-full max-w-[1100px] h-[50vw] max-h-[500px] bg-gradient-to-br from-primary to-blue-500 from-40% to-90% m-auto" />
         </article>
       </section>
     </main>
