@@ -11,7 +11,7 @@ export default function Home() {
           alt="Investindo Com Pouco"
           width={800}
           height={400}
-          className="absolute right-0 -z-10 top-16 h-[600px] object-cover"
+          className="absolute right-0 -z-10 top-16 h-[560px] object-cover"
         />
         <div className="absolute -z-10 inset-0 bg-gradient-to-b from-transparent to-black from-40% to-90%" />
         <div className="absolute -z-10 inset-0 bg-gradient-to-t from-transparent to-black from-40% to-90%" />
@@ -33,22 +33,6 @@ export default function Home() {
               ACESSAR CANAL
             </Button>
           </div>
-        </article>
-      </section>
-
-      <section>
-        <article className="space-y-6 text-center">
-          <span className="text-primary">
-            COMEÇE SUA JORNADA ATÉ A LIBERDADE FINANCEIRA POR AQUI
-          </span>
-          <h1 className="text-3xl font-black">Como Investir em Ações</h1>
-          <iframe
-            width="1200"
-            height="700"
-            src="https://www.youtube.com/embed/bxMhtttzM28?si=yzFU5PntuLdxrXHd"
-            title="YouTube video player"
-            className="w-full max-w-[1100px] max-h-[500px] bg-muted rounded-sm m-auto"
-          ></iframe>
         </article>
       </section>
     </main>
