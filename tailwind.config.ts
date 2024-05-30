@@ -18,6 +18,7 @@ const config: Config = {
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         primary: 'hsl(var(--primary))',
+        secundary: 'hsl(var(--secundary))',
         muted: 'hsl(var(--muted))',
         border: 'hsl(var(--border))'
       }

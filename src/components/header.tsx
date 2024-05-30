@@ -1,4 +1,5 @@
 import { ActiveLink } from './ui/active-link';
+import { Button } from './ui/button';
 
 export const Header = () => {
   return (
@@ -20,9 +21,7 @@ export const Header = () => {
             </ActiveLink>
           </li>
           <li>
-            <ActiveLink href="/contact" icon>
-              Contato
-            </ActiveLink>
+            <Button>Contato</Button>
           </li>
         </ul>
       </nav>

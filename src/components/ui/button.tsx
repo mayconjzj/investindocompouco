@@ -8,6 +8,7 @@ export const ButtonVariants = tv({
       primary: 'bg-primary text-foreground hover:bg-primary/80 duration-150'
     },
     size: {
+      none: 'px-0 py-0',
       sm: 'px-4 py-2',
       md: 'px-6 py-3',
       lg: 'px-8 py-4',
@@ -24,8 +25,8 @@ export const ButtonVariants = tv({
   },
   defaultVariants: {
     variant: 'primary',
-    size: 'lg',
-    rounded: 'md'
+    size: 'md',
+    rounded: 'full'
   }
 });
 

@@ -30,7 +30,7 @@ export default function Home() {
           </p>
 
           <div className="flex gap-x-3">
-            <Button className="w-full" rounded="sm" asChild>
+            <Button className="w-full" asChild>
               <Link
                 href={'https://www.youtube.com/@investindocompouco_oficial'}
                 target="_blank"
