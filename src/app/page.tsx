@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { Button } from '@/components/ui/button';
 
@@ -29,8 +30,13 @@ export default function Home() {
           </p>
 
           <div className="flex gap-x-3">
-            <Button className="bg-primary text-foreground text-xl w-full py-4 hover:bg-primary/80 duration-150 rounded-sm">
-              ACESSAR CANAL
+            <Button className="w-full" rounded="sm" asChild>
+              <Link
+                href={'https://www.youtube.com/@investindocompouco_oficial'}
+                target="_blank"
+              >
+                ACESSAR CANAL
+              </Link>
             </Button>
           </div>
         </article>
