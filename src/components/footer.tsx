@@ -17,7 +17,7 @@ export const Footer = () => {
         <div>
           <ul className="flex gap-x-3 items-center justify-center">
             <li>
-              <Button rounded="full" size="none" className="size-12" asChild>
+              <Button size="none" className="size-12" asChild>
                 <Link
                   href="https://www.youtube.com/@investindocompouco_oficial"
                   target="_blank"
@@ -27,28 +27,28 @@ export const Footer = () => {
               </Button>
             </li>
             <li>
-              <Button rounded="full" size="none" className="size-12" asChild>
+              <Button size="none" className="size-12" asChild>
                 <Link href="/" target="_blank">
                   <FaFacebook size={28} />
                 </Link>
               </Button>
             </li>
             <li>
-              <Button rounded="full" size="none" className="size-12" asChild>
+              <Button size="none" className="size-12" asChild>
                 <Link href="/" target="_blank">
                   <FaInstagram size={28} />
                 </Link>
               </Button>
             </li>
             <li>
-              <Button rounded="full" size="none" className="size-12" asChild>
+              <Button size="none" className="size-12" asChild>
                 <Link href="/" target="_blank">
                   <FaTwitter size={28} />
                 </Link>
               </Button>
             </li>
             <li>
-              <Button rounded="full" size="none" className="size-12" asChild>
+              <Button size="none" className="size-12" asChild>
                 <Link href="/" target="_blank">
                   <FaGooglePlusG size={28} />
                 </Link>
