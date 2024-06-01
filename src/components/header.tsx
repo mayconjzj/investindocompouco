@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import Link from 'next/link';
+
 import { ActiveLink } from './ui/active-link';
 import { Button } from './ui/button';
 
@@ -5,7 +8,15 @@ export const Header = () => {
   return (
     <header className="px-2 md:px-16 lg:px-20 h-24 flex justify-between items-center">
       <div>
-        <h1 className="text-3xl">LOGO</h1>
+        <Link href="/">
+          <Image
+            src="/images/channelLogo.jpeg"
+            alt="Logo"
+            width={60}
+            height={60}
+            className="rounded-full"
+          />
+        </Link>
       </div>
 
       <nav className="hidden md:block">
