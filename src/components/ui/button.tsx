@@ -12,7 +12,11 @@ export const ButtonVariants = tv({
       sm: 'px-4 py-2',
       md: 'px-6 py-3',
       lg: 'px-8 py-4',
-      xl: 'px-10 py-5'
+      xl: 'px-10 py-5',
+      '2xl': 'px-12 py-6',
+      '3xl': 'px-14 py-7',
+      '4xl': 'px-16 py-8',
+      '5xl': 'px-20 py-10'
     },
     rounded: {
       none: 'rounded-none',
@@ -20,6 +24,10 @@ export const ButtonVariants = tv({
       md: 'rounded-md',
       lg: 'rounded-lg',
       xl: 'rounded-xl',
+      '2xl': 'rounded-[1.25rem]',
+      '3xl': 'rounded-[1.5rem]',
+      '4xl': 'rounded-[2rem]',
+      '5xl': 'rounded-[2.5rem]',
       full: 'rounded-full'
     }
   },
