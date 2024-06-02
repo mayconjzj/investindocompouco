@@ -1,5 +1,5 @@
 import { Slot } from '@radix-ui/react-slot';
-import { VariantProps, tv } from 'tailwind-variants';
+import { type VariantProps, tv } from 'tailwind-variants';
 
 export const ButtonVariants = tv({
   base: 'inline-flex items-center justify-center text-sm font-medium',

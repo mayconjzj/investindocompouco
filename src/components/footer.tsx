@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import {
-  FaYoutube,
   FaFacebook,
+  FaGooglePlusG,
   FaInstagram,
   FaTwitter,
-  FaGooglePlusG
+  FaYoutube
 } from 'react-icons/fa';
 
 import { ActiveLink } from './ui/active-link';

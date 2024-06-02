@@ -3,6 +3,7 @@ export default function About() {
     <main className="px-2 md:px-16 lg:px-20 space-y-6 pb-20">
       <section className="flex space-y-6 gap-x-4 items-center justify-evenly">
         <div className="w-[400px]" />
+
         <div className="w-[600px] space-y-3">
           <h1 className="font-bold text-4xl">Missão</h1>
           <p className="text-muted font-light">
@@ -13,6 +14,7 @@ export default function About() {
           </p>
         </div>
       </section>
+
       <section className="flex space-y-6 gap-x-4 items-center justify-evenly">
         <div className="w-[600px] space-y-3">
           <h1 className="font-bold text-4xl">História</h1>
@@ -23,6 +25,7 @@ export default function About() {
             Repudiandae.
           </p>
         </div>
+
         <div className="w-[400px]" />
       </section>
     </main>
