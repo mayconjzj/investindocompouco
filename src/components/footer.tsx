@@ -35,7 +35,10 @@ export const Footer = () => {
             </li>
             <li>
               <Button size="none" className="size-12" asChild>
-                <Link href="/" target="_blank">
+                <Link
+                  href="https://www.instagram.com/investindocompoucobr/"
+                  target="_blank"
+                >
                   <FaInstagram size={28} />
                 </Link>
               </Button>

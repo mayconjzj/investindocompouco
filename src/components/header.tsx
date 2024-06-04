@@ -1,8 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { ActiveLink } from './ui/active-link';
-import { Button } from './ui/button';
+import { MainNav } from './main-nav';
 
 export const Header = () => {
   return (
@@ -19,23 +18,7 @@ export const Header = () => {
         </Link>
       </div>
 
-      <nav className="hidden md:block">
-        <ul className="flex items-center gap-x-12 font-bold">
-          <li>
-            <ActiveLink href="/" icon>
-              Início
-            </ActiveLink>
-          </li>
-          <li>
-            <ActiveLink href="/about" icon>
-              Sobre
-            </ActiveLink>
-          </li>
-          <li>
-            <Button>Contato</Button>
-          </li>
-        </ul>
-      </nav>
+      <MainNav />
     </header>
   );
 };
