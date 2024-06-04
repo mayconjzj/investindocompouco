@@ -14,7 +14,7 @@ export const MainNav = () => {
   return (
     <>
       <nav className="md:flex items-center justify-between hidden">
-        <ul className="flex gap-x-6 font-bold">
+        <ul className="flex gap-x-6 font-bold items-center">
           <li>
             <ActiveLink href="/" icon>
               Início
@@ -24,6 +24,9 @@ export const MainNav = () => {
             <ActiveLink href="/about" icon>
               Sobre
             </ActiveLink>
+          </li>
+          <li>
+            <Button>Contato</Button>
           </li>
         </ul>
       </nav>
@@ -50,6 +53,9 @@ export const MainNav = () => {
             <ActiveLink href="/about" icon>
               Sobre
             </ActiveLink>
+          </li>
+          <li className="absolute left-0 bottom-2 ml-[50%] translate-x-[-50%]">
+            <Button>Contato</Button>
           </li>
         </ul>
       </nav>

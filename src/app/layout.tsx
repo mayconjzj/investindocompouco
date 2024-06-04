@@ -10,6 +10,11 @@ export const metadata: Metadata = {
     default: 'Investindo Com Pouco',
     template: '%s | Investindo Com Pouco'
   },
+  icons: {
+    icon: {
+      url: '/images/channelLogo.jpeg'
+    }
+  },
   description:
     'Conheça nosso canal no youtube, com diversos conteúdos informativos, como notícias sobre o mercado de ações, fundos imobiliários, indicadores fundamentalistas e conteúdo didático. Venham conhecer nosso canal e descubrar como investir.',
   openGraph: {
